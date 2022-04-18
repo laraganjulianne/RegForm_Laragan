@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content= "Julianne Laragan">
+	<link rel = "icon" href ="../images/future.png" type = "image/x-icon">
+	<title>Registration Form</title>
+	<style type="text/css">
+		table {
+			border: 2px solid red;
+			border-collapse:collapse;
+			font-family: Verdana;
+			font-size: 13px;
+			padding-left: 43px;
+		}
+		th {
+			font-family: Arial;
+			background-color: red;
+			color: white;
+			text-align: left;
+			padding-left: 40px;
+		}
+		td {
+			text-align: top;
+			padding-left: 40px;
+			margin-right: 35px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+		.rowheader {
+			color: red;
+			background-color: white;
+		}
+		.header {
+			padding-top: 5px;
+			padding-bottom: 3px;
+		}
+		.footerdata {
+			padding-left: 20px;
+			padding-right: 25px;
+		}
+		.centerheader {
+			text-align: center;
+		}
+		.customheader {
+			padding-left: 0px;
+		}
+		.customrowheader {
+			padding-top: 7px;
+			color: red;
+			background-color:white;
+		}
+		.tabledata {
+			padding-left: 18px;
+		}
+		.day {
+			padding-left: 5px;
+		}
+		.unit {
+			padding-left: 30px;
+		}
+		.m {
+			padding-left: 5px;
+		}
+		.venue {
+			padding-left: 0px;
+			padding-right: 10px;
+		}
+		.unitlast {
+			border-bottom: 1px solid black;
+			padding-left: 30px;
+		}
+		.total {
+			padding-top: 0px;
+			padding-left: 30px;
+			font-size: 13px;
+		}
+		.schoolfees {
+			color: red;
+			font-size: 16px;
+			background-color: white;
+			text-align: center;
+			padding-top: 50px;
+		}
+		.payment {
+			padding-top: 5px;
+			padding-left: 5px;
+			text-align: right;
+			
+		}
+		.particulars {
+			padding-top: 5px;
+			padding-left: 50px;
+		}
+		.tuition {
+			padding-left: 20px;
+		}
+		.second {
+			padding-left: 60px;
+			padding-right: 10px;
+		}
+		.semester {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.year {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.upon {
+			padding-left: 60px;
+		}
+		.registration {
+			padding-left: 0px;
+		}
+		.month {
+			padding-left: 60px;
+		}
+		.date {
+			padding-left: 10px;
+		}
+		.lastamount {
+			border-bottom: 1px solid black;
+		}
+		.date2 {
+			padding-left: 0px;
+		}
+		.totalfee {
+			padding-left: 19px;
+		}
+		.lasttotal {
+			padding-left: 60px;
+		}
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN,JULIANNE GAYLE-->
+	<!--04/11/22-->
+	
+	
+	<table>
+		<tr>
+			<th colspan="7" class="header">DDRM Form No.1</th>
+			
+		</tr>
+		<tr>
+			<th class="rowheader"><b>Student Name:</b></th>
+			<td class="tabledata">LARAGAN, JULIANNE GAYLE</td>
+			<th class="rowheader">Curr. Year:</th>
+			<td>2</td>
+			<th class="rowheader">College:</th>
+			<td>CCSS</td>
+		</tr>
+		<tr>
+			<th class="customrowheader">Student no:</th>
+			<td class="tabledata">201712345678</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<th class="rowheader">Curriculum Code:</th>
+			<td>CIT 2019</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="tabledata">OLD STUDENT</td>
+			<th class="rowheader">Degree Program:</th>
+			<td>IT</td>
+		</tr>
+		<tr>
+			<th class="rowheader">Address:</th>
+			<td class="tabledata">1573 BARANGAY 358 SANTA CRUZ, CITY OF MANILA</td>
+		</tr>
+	<tfoot>
+		<tr>
+			<th class="header">Subject and Section</th>
+			<th class="centerheader">Description Title</th>
+			<th colspan="4" class="header">Units</th>
+			<th class="customheader">Schedule</th>
+		</tr>
+		<tr>
+			<td class="footerdata">CDT 1101-ITAD</td>
+			<td class="footerdata">Data Analytics</td>
+			<td class="unit">3.00</td>
+			<td class="day">MW</td>
+			<td class="footerdata">1430-1530</td>
+			<td class="m">M</td>
+			<td class="venue">FIELD</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="footerdata">Data Analytics</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="day">TTH</td>
+			<td class="footerdata">1050-1220</td>
+			<td class="m">M</td>
+			<td class="venue">CIT CL D</td>
+		</tr>
+		<tr>
+			<td class="footerdata">CHC 1101-ITAD</td>
+			<td class="footerdata">Human Computer Interaction</td>
+			<td class="unit">3.00</td>
+			<td class="day">MW</td>
+			<td class="footerdata">0730-0830</td>
+			<td class="m">M</td>
+			<td class="venue">FIELD</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="footerdata">Human Computer Interaction</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="day">MWF</td>
+			<td class="footerdata">1540-1640</td>
+			<td class="m">M</td>
+			<td class="venue">CIT CL D</td>
+		</tr>
+		<tr>
+			<td class="footerdata">CIA 1101-ITAD</td>
+			<td class="footerdata">Information Assurance and Security 1</td>
+			<td class="unit">3.00</td>
+			<td class="day">MW</td>
+			<td class="footerdata">0840-0940</td>
+			<td class="m">M</td>
+			<td class="venue">FIELD</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="footerdata">Information Assurance and Security 1</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="day">TTH</td>
+			<td class="footerdata">1440-1610</td>
+			<td class="m">M</td>
+			<td class="venue">CS AL A</td>
+		</tr>
+		<tr>
+			<td class="footerdata">CIP 1101-ITAD</td>
+			<td class="footerdata">Integrative Programming and Technologies 1</td>
+			<td class="unit">3.00</td>
+			<td class="day">MW</td>
+			<td class="footerdata">0950-1050</td>
+			<td class="m">M</td>
+			<td class="venue">FIELD</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="footerdata">Integrative Programming and Technologies 1</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="day">MWF</td>
+			<td class="footerdata">1320-1420</td>
+			<td class="m">M</td>
+			<td class="venue">CS BL A</td>
+		</tr>
+		<tr>
+			<td class="footerdata">CIT 2201-ITAD</td>
+			<td class="footerdata">Networking 1</td>
+			<td class="unit">3.00</td>
+			<td class="day">MW</td>
+			<td class="footerdata">1100-1200</td>
+			<td class="m">M</td>
+			<td class="venue">FIELD</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="footerdata">Networking 1</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="day">TTH</td>
+			<td class="footerdata">0910-1040</td>
+			<td class="m">M</td>
+			<td class="venue">CIT CL A</td>
+		</tr>
+		<tr>
+			<td class="footerdata">CSA 1101-ITAD</td>
+			<td class="footerdata">Systems Analysis, Design and Prototyping</td>
+			<td class="unit">3.00</td>
+			<td class="day">TTH</td>
+			<td class="footerdata">0730-0900</td>
+			<td class="m">M</td>
+			<td class="venue">FIELD</td>
+		</tr>
+		<tr>
+			<td class="footerdata">ZGE 4304-ITAD</td>
+			<td class="footerdata">Living in the IT Era</td>
+			<td class="unit">3.00</td>
+			<td class="day">TTH</td>
+			<td class="footerdata">1300-1430</td>
+			<td class="m">M</td>
+			<td class="venue">FIELD</td>
+		</tr>
+		<tr>
+			<td class="footerdata">PEN 4322-35TC</td>
+			<td class="footerdata">Volleyball</td>
+			<td class="unitlast">2.00</td>
+			<td class="day">TTH</td>
+			<td class="footerdata">1620-1720</td>
+			<td class="m">M</td>
+			<td class="venue">GYM A4</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="total">23.00</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+		<tr>
+			<th colspan="7"class="schoolfees">SCHOOL FEES</th>
+		</tr>
+		<tr>
+			<td bgcolor="red">&nbsp;</td>
+			<th class="particulars">Particulars</th>
+			<th class="particulars">Amount</th>
+			<td bgcolor="red">&nbsp;</td>
+			<th class="payment">Payment Schedule</th>
+			<td bgcolor="red">&nbsp;</td>
+			<td bgcolor="red">&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="tuition">40101010000</td>
+			<td class="tuition">Tuition Fee</td>
+			<td>40,671.13</td>
+			<td class="second">SECOND</td>
+			<td class="semester">SEMESTER</td>
+			<td class="year">2021-2022<td>
+		</tr>
+		<tr>
+			<td class="tuition">40101021200</td>
+			<td class="tuition">Laboratory Fee</td>
+			<td>3,718.55</td>
+			<td class="second">MANILA</td>
+			<td class="semester">CAMPUS</td>
+			
+		</tr>
+		<tr>
+			<td class="tuition">40102060000</td>
+			<td class="tuition">Installment Fee</td>
+			<td>478.68</td>
+		</tr>
+		<tr>
+			<td class="tuition">20101022500</td>
+			<td class="tuition">Local Fee</td>
+			<td>570.86</td>
+			<td class="upon">UPON</td>
+			<td class="registration">REGISTRATION</td>
+			<td>10,500.00</td>
+		</tr>
+		<tr>
+			<td class="tuition">20101022500</td>
+			<td class="tuition">Miscellaneous Fees</td>
+			<td class="lastamount">7,584.12</td>
+			<td class="month">FEBRUARY</td>
+			<td class="date">15, 2022</td>
+			<td>10,629.04</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="totalfee">TOTAL SCHOOL FEES</td>
+			<td class="amount">53,019.04</td>
+			<td class="month">MARCH </td>
+			<td class="date2">15, 2022</td>
+			<td>10,630.00</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="month">APRIL </td>
+			<td class="date2">18, 2022</td>
+			<td>10,630.00</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="month">MAY </td>
+			<td class="date2">19, 2022</td>
+			<td class="lastamount">10,630.00</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td class="lasttotal">TOTAL</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td>53,019</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+			<td bgcolor="#FFFFFF">&nbsp;</td>
+		</tr>
+	</tfoot>
+	</table> 
+	<br>
+	
+</body>
+</html>
